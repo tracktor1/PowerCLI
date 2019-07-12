@@ -1,0 +1,5 @@
+VSWName,PGName,VLANID
+Testvsw,testpg1,0
+Testvsw,testpg2,0
+Testvsw2,testpg3,0
+Testvsw2,testpg4,0
