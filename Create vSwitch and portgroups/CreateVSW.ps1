@@ -6,7 +6,7 @@ Change the vcenter address and admin user in the variables section.
 DA-#>
 
 #Variables
-$viadmin = 'administrator@sso.indeni.com'
+$viadmin = 'administrator@vsphere'
 $ESXAdmin = 'root'
 $viserver = '192.168.1.11'
 $vmhost = '192.168.1.19'
