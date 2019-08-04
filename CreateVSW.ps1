@@ -15,13 +15,12 @@ $VSWlist = Import-CSV .\VSW-List.csv
 
 # Connect to vcenter 
 #-------------------
-$credentials = Get-Credential -UserName $viadmin -Message "Enter your vCenter password"
-Connect-VIServer $viserver -Credential $credentials
-
+#$credentials = Get-Credential -UserName $viadmin -Message "Enter your vCenter password"
+#Connect-VIServer $viserver -Credential $credentials
 # Connect to ESX 
 #-------------------
-#$credentials = Get-Credential -UserName $ESXAdmin -Message "Enter your vCenter password"
-#Connect-VIServer $vmhost -Credential $credentials
+$credentials = Get-Credential -UserName $ESXAdmin -Message "Enter your vCenter password"
+Connect-VIServer $vmhost -Credential $credentials
 
 $VMHosts = Get-VMHost
 
@@ -65,4 +64,4 @@ Foreach ($VMHost in $VMHosts){
 		}
 	}
 }
-Disconnect-VIServer -confirm:$false
+#Disconnect-VIServer -confirm:$false
