@@ -1,6 +1,6 @@
 <#
 This script will create vswitches and portgroups on all ESXIs connected to Vcenter.
-You need to add th e vswitch name, portgroup name and vlan ID in the CSV file VSW-List.csv.
+You need to add th evswitch name, portgroup name and vlan ID in the CSV file VSW-List.csv.
 Change the vcenter address and credentials in the variables section.
 
 #>
