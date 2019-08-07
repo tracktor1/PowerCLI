@@ -1,4 +1,0 @@
-VSWName,PGName,VLANID,Promiscuous,MACChange,Forgedt
-xxx,xxx-pg1,4095,0,1,1
-xxx,xxx-pg2,100,1,1,1
-xxx,xxx-pg3,101,1,1,1
