@@ -18,8 +18,8 @@ $VSWlist = Import-CSV .\VSW-List.csv
 $credentials = Get-Credential -UserName $viadmin -Message "Enter your vCenter password"
 Connect-VIServer $viserver -Credential $credentials
 
-# Connect to ESX 
-#-------------------
+# Un comment to connect to single ESX 
+#------------------------------------
 #$credentials = Get-Credential -UserName $ESXAdmin -Message "Enter your vCenter password"
 #Connect-VIServer $vmhost -Credential $credentials
 
