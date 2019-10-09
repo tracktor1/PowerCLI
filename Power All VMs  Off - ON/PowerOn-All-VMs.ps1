@@ -31,3 +31,5 @@ Foreach ($VM in $AllVMs){
 		}
 	}
 }
+
+Disconnect-VIServer -confirm:$false
